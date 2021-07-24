@@ -4,5 +4,5 @@ cd ../ant
 call setantenv.bat
 cd ../ant_compile
 call ant_compile.bat
-cd ../maven_compile
-call mvn.bat
+cd ../maven_compile/app
+call mvnStart.bat
